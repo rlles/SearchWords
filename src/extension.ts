@@ -22,11 +22,11 @@ const decorationOptions = {
 const decoration = vscode.window.createTextEditorDecorationType(decorationOptions);
 
 // декоратор для миникарты
-const decorationMinimapOptions = {
+/* const decorationMinimapOptions = {
 	overviewRulerLane: vscode.OverviewRulerLane.Full,
 	overviewRulerColor: 'green'
  };
-const decorationMinimap = vscode.window.createTextEditorDecorationType(decorationMinimapOptions);
+const decorationMinimap = vscode.window.createTextEditorDecorationType(decorationMinimapOptions); */
 
 
 
