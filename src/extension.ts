@@ -15,10 +15,18 @@ let lastInputValue: string; // последнее введенное значе�
 const decorationOptions = {
 	//isWholeLine: true,
 	//overviewRulerLane: vscode.OverviewRulerLane.Right,
-	//overviewRulerColor: 'blue',
+	//overviewRulerLane: vscode.OverviewRulerLane.Full,
+	//overviewRulerColor: 'green',
 	backgroundColor: 'green'
  };
 const decoration = vscode.window.createTextEditorDecorationType(decorationOptions);
+
+// декоратор для миникарты
+const decorationMinimapOptions = {
+	overviewRulerLane: vscode.OverviewRulerLane.Full,
+	overviewRulerColor: 'green'
+ };
+const decorationMinimap = vscode.window.createTextEditorDecorationType(decorationMinimapOptions);
 
 
 

@@ -1,6 +1,6 @@
-# searchwords README
+# searchwords
 
-### Расширение для поиска по тектсту
+### Расширение для поиска по тексту
 
 При запуске отображает строку для поиска.
 * если ввести поисковый запрос:
@@ -22,3 +22,6 @@
 ### Разное
 Опции для стилей
 https://vshaxe.github.io/vscode-extern/vscode/DecorationRenderOptions.html#backgroundColor
+
+### За основу работы с пиклистом взял этот проект
+https://github.com/jacobdufault/vscode-fuzzy-search
