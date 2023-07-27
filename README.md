@@ -22,3 +22,5 @@
 ### Разное
 Опции для стилей
 https://vshaxe.github.io/vscode-extern/vscode/DecorationRenderOptions.html#backgroundColor
+
+111
